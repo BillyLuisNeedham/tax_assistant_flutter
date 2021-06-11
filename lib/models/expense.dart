@@ -3,14 +3,14 @@ class Expense {
   final String name;
   final int dateTimeStamp;
   final double amount;
-  final String recieptUrl;
+  final String receiptUrl;
   final String notes;
 
   Expense(
-      {required this.id,
-      required this.name,
-      required this.dateTimeStamp,
-      required this.amount,
-      required this.recieptUrl,
-      required this.notes});
+      this.id,
+      this.name,
+      this.dateTimeStamp,
+      this.amount,
+      this.receiptUrl,
+      this.notes);
 }
